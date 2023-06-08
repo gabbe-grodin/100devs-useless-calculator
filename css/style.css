@@ -1,0 +1,60 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Martian Mono', monospace;
+  background-color: brown;
+  color: greenyellow
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  margin: 0 auto;
+}
+h1 {
+  font-size: 50px;
+}
+h1, h2{
+  text-align: center;
+  margin-top: 40px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  border-radius: 5px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  text-align: center;
+
+}
+li{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  vertical-align: text-bottom;
+  margin: 5px;
+  background-color: bisque;
+  border-radius: 5px;
+  /* border: 3px solid black; */
+  width: 100px;
+  height: 100px; 
+  justify-content: center;
+  align-items: end;
+  padding: 35px 10px 0 0;
+}
+#placeToPutResult {
+  display: block;
+  font-size: 50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
